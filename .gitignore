@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Plugin journal data (user-local, never published)
+journal/
+
+# Backup files
+*.bak
+*~

@@ -1,0 +1,7 @@
+{
+  "project": "{{project_name}}",
+  "basePort": 0,
+  "ports": {},
+  "services": {},
+  "createdAt": "{{date}}"
+}

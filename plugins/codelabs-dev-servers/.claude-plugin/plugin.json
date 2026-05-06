@@ -1,0 +1,12 @@
+{
+  "name": "codelabs-dev-servers",
+  "version": "1.0.0",
+  "description": "Production-grade local development server manager. Deterministic ports (same project = same ports forever), zero collisions across multiple projects, optional HTTPS dev domains via embedded Caddy + mkcert. Two modes: 'ports' (localhost:PORT, fast HMR) or 'domains' (https://dev.myapp.localhost, simulates production cookies/OAuth/Service Workers). Includes init, start, stop, restart, list, port-lookup, add-service skills.",
+  "author": {
+    "name": "codelabs.studio",
+    "url": "https://codelabs.studio"
+  },
+  "homepage": "https://codelabs.studio",
+  "autoDiscovery": true,
+  "skills": "skills/**/*.md"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "codelabs-role-empathy",
+  "version": "1.1.0",
+  "description": "Role empathy system for user-centered feature development. Identifies all user roles in a project, generates persona documents (fears, motivations, daily workflow, technical ability), validates UX per role, and ensures every feature is designed from the perspective of who uses it. Pairs with journey-map and edge-case-discover for comprehensive role-based testing.",
+  "author": {
+    "name": "codelabs.studio",
+    "url": "https://codelabs.studio"
+  },
+  "homepage": "https://codelabs.studio",
+  "autoDiscovery": true,
+  "skills": "skills/**/*.md",
+  "hooks": "hooks/**/*.md",
+  "agents": "agents/**/*.md"
+}

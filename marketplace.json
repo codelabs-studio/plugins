@@ -1,0 +1,67 @@
+{
+  "name": "codelabs",
+  "description": "Plugins for the codelabs.studio Claude Code workflow — virtual co-founder, deterministic dev servers, pre-launch audits, cross-project feature ports.",
+  "owner": {
+    "name": "codelabs.studio",
+    "url": "https://codelabs.studio"
+  },
+  "plugins": [
+    {
+      "name": "codelabs-cofounder",
+      "description": "Virtual co-founder with skin in the game. Persistent project journal, brutally honest posture, auto-routing to specialist sub-agents (CTO, CFO, PM, QA, UX, Security).",
+      "version": "1.0.0",
+      "homepage": "https://codelabs.studio/plugins/codelabs-cofounder",
+      "source": {
+        "type": "github",
+        "repo": "codelabs-studio/codelabs-cofounder"
+      },
+      "tags": ["productivity", "advisor", "founder", "decision-making"]
+    },
+    {
+      "name": "codelabs-dev-servers",
+      "description": "Production-grade local dev server manager. Deterministic ports across projects, optional HTTPS subdomains via embedded Caddy + mkcert. Two modes: ports (fast) or domains (HTTPS).",
+      "version": "1.0.0",
+      "homepage": "https://codelabs.studio/plugins/codelabs-dev-servers",
+      "source": {
+        "type": "github",
+        "repo": "codelabs-studio/codelabs-dev-servers"
+      },
+      "tags": ["development", "servers", "https", "caddy", "ports"]
+    },
+    {
+      "name": "codelabs-advisors",
+      "description": "Pre-launch audit suite for web projects: SEO, security (OWASP), performance (Core Web Vitals), email deliverability (SPF/DKIM/DMARC), DNS, database, accessibility.",
+      "version": "1.0.0",
+      "homepage": "https://codelabs.studio/plugins/codelabs-advisors",
+      "source": {
+        "type": "github",
+        "repo": "codelabs-studio/codelabs-advisors"
+      },
+      "tags": ["audit", "seo", "security", "performance", "pre-launch"]
+    },
+    {
+      "name": "codelabs-feature-port",
+      "description": "Cross-project feature analysis and migration. Deeply analyzes features in any project, extracts their essence, and ports them to other projects respecting target architecture and conventions.",
+      "version": "1.2.0",
+      "homepage": "https://codelabs.studio/plugins/codelabs-feature-port",
+      "source": {
+        "type": "github",
+        "repo": "codelabs-studio/codelabs-feature-port"
+      },
+      "tags": ["development", "refactor", "migration", "code-portability"]
+    },
+    {
+      "name": "codelabs-role-empathy",
+      "description": "Role empathy system for user-centered features. Identifies user roles, generates personas, validates UX per role, and pairs with journey-map for role-based test coverage.",
+      "version": "1.1.0",
+      "homepage": "https://codelabs.studio/plugins/codelabs-role-empathy",
+      "source": {
+        "type": "github",
+        "repo": "codelabs-studio/codelabs-role-empathy"
+      },
+      "tags": ["ux", "personas", "user-research", "testing"]
+    }
+  ],
+  "version": "1.0.0",
+  "updated_at": "2026-05-06T15:00:00Z"
+}

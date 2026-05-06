@@ -1,0 +1,14 @@
+{
+  "name": "codelabs-cofounder",
+  "version": "1.0.0",
+  "description": "Your virtual co-founder with skin in the game. A persistent partner that remembers your project journey, challenges your thinking, and dispatches specialized advisors (CTO, CFO, PM, QA, UX, Security) only when truly needed. Includes a journal layer for project memory across sessions.",
+  "author": {
+    "name": "codelabs.studio",
+    "url": "https://codelabs.studio"
+  },
+  "homepage": "https://codelabs.studio",
+  "autoDiscovery": true,
+  "skills": "skills/**/*.md",
+  "agents": "agents/**/*.md",
+  "hooks": "hooks/**/*.md"
+}

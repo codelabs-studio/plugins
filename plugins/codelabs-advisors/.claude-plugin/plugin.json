@@ -1,0 +1,12 @@
+{
+  "name": "codelabs-advisors",
+  "version": "1.2.0",
+  "description": "Pre-launch audit suite for web projects: SEO, security (OWASP), performance (Core Web Vitals), DNS, database. Each audit produces a historical report so you can track improvements project over project.",
+  "author": {
+    "name": "codelabs.studio",
+    "url": "https://codelabs.studio"
+  },
+  "homepage": "https://codelabs.studio",
+  "autoDiscovery": true,
+  "skills": "skills/**/*.md"
+}

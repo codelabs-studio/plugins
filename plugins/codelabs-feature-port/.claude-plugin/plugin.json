@@ -1,0 +1,12 @@
+{
+  "name": "codelabs-feature-port",
+  "version": "1.2.0",
+  "description": "Cross-project feature analysis, migration, and comparison. Analyzes features in any project, extracts their essence, ports them to other projects with full architectural adaptation, and compares implementations side-by-side. Useful for: 'I built X in project A, want it in project B', 'how do projects A and B handle the same problem differently?'.",
+  "author": {
+    "name": "codelabs.studio",
+    "url": "https://codelabs.studio"
+  },
+  "homepage": "https://codelabs.studio",
+  "autoDiscovery": true,
+  "skills": "skills/**/*.md"
+}
