@@ -44,7 +44,7 @@ All skills are available in **every project automatically**. Just use the slash 
 ### `/pre-launch-audit`
 **Complete pre-production audit** covering:
 - DNS & Email (SPF, DKIM, DMARC, MX records)
-- Database (Neon PostgreSQL, migrations, indexes)
+- Database (PostgreSQL, migrations, indexes)
 - SEO (meta tags, Open Graph, structured data, sitemaps)
 - Security (OWASP Top 10, HTTPS, headers, authentication)
 - Performance (Core Web Vitals, bundle size, caching)
@@ -125,7 +125,7 @@ All skills are available in **every project automatically**. Just use the slash 
 ### `/db-config-check`
 **Database configuration audit** covering:
 - Connection strings & SSL configuration
-- Connection pooling (Neon, PgBouncer)
+- Connection pooling (PgBouncer)
 - Migrations status (Prisma or custom)
 - Index analysis (missing, unused)
 - Query performance (slow queries)

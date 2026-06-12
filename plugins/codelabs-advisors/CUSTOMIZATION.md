@@ -280,7 +280,7 @@ Add a section to relevant skills:
 
 ### Required Services
 - [ ] Uses Mailcow at mail.codelabs.studio
-- [ ] Database hosted on Neon
+- [ ] Database hosted on self-hosted PostgreSQL (db.codelabs.studio)
 - [ ] DNS managed via Spaceship.dev
 - [ ] Authentication via Keycloak at auth.codelabs.studio
 
@@ -344,7 +344,7 @@ Check that services are configured correctly:
 - Use `/config-expert` to retrieve credentials
 - Verify SMTP settings match stored configuration
 
-**Neon Database**:
+**PostgreSQL Database (db.codelabs.studio)**:
 - Use `/config-expert` to check connection string
 - Validate against environment variables
 ```

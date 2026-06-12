@@ -47,7 +47,7 @@ Gather all project information by reading these files (in parallel where possibl
    - Config files (next.config.*, vite.config.*, tsconfig.json, tailwind.config.*, etc.)
    - Database (prisma, drizzle, migrations/, pg, mongoose, etc.)
    - Auth (next-auth, keycloak, clerk, auth0, etc.)
-   - Deployment (Dockerfile, railway.json, vercel.json, fly.toml, etc.)
+   - Deployment (Dockerfile, docker-compose.yml, vercel.json, fly.toml, etc.)
 
 5. **Git context**:
    - Remote URL (for repo link)
@@ -99,10 +99,10 @@ Infer from docs, package.json description, and project structure.]
 |-------|-----------|
 | Framework | Next.js 16 / Vite / etc. |
 | Language | TypeScript / Python / etc. |
-| Database | PostgreSQL (Neon) / etc. |
+| Database | PostgreSQL / etc. |
 | Auth | NextAuth + Keycloak / etc. |
 | Styling | Tailwind CSS / etc. |
-| Deployment | Railway / Vercel / etc. |
+| Deployment | Docker / Vercel / etc. |
 [Detect from actual dependencies, not generic]
 
 ## Getting Started
@@ -234,7 +234,7 @@ Generate shields.io badges for:
 - **Framework**: `![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)`
 - **Language**: `![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue?style=flat-square&logo=typescript)`
 - **Database**: `![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=flat-square&logo=postgresql)`
-- **Deployment**: `![Railway](https://img.shields.io/badge/Railway-deployed-purple?style=flat-square&logo=railway)`
+- **Deployment**: `![Docker](https://img.shields.io/badge/Docker-deployed-2496ED?style=flat-square&logo=docker)`
 - **Styling**: `![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=flat-square&logo=tailwind-css)`
 
 Detect versions from actual dependencies, not placeholders.

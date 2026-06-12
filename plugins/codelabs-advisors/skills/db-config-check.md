@@ -1,7 +1,7 @@
 ---
 name: db-config-check
 description: Database configuration audit - connections, migrations, indexes, security
-tags: [database, postgresql, neon, migrations]
+tags: [database, postgresql, migrations]
 model: opus
 ---
 
@@ -19,7 +19,7 @@ Verify and optimize database configuration, focusing on your managed PostgreSQL 
   - Protocol: `postgresql://` or `postgres://`
   - Username: no spaces, proper encoding
   - Password: URL-encoded if contains special characters
-  - Host: managed Postgres hostname (e.g., `ep-xxxx.us-east-1.aws.neon.tech`)
+  - Host: Postgres hostname (e.g., `db.example.com`)
   - Port: 5432 (default)
   - Database: database name
   - SSL Mode: `require` (mandatory for most managed providers)
@@ -54,7 +54,7 @@ npx prisma db execute --stdin <<< "SELECT version();"
 ## 2. Connection Pooling
 
 ### Connection Pooling
-Most managed Postgres providers (Neon, Supabase, AWS RDS Proxy) use PgBouncer for connection pooling.
+Many Postgres setups use PgBouncer for connection pooling.
 
 **Pooled Connection (recommended for serverless):**
 ```
@@ -220,7 +220,7 @@ ORDER BY idx_scan ASC;
 
 **Find slow queries:**
 ```sql
--- Enable query logging (Neon console or pg_stat_statements)
+-- Enable query logging (pg_stat_statements)
 SELECT
   calls,
   total_exec_time,

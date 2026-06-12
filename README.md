@@ -53,7 +53,7 @@ curl -fsSL https://codelabs.studio/setup | bash --personal
 Each plugin is **opinionated by default but unopinionated about your stack**:
 
 - We don't assume you're using Next.js, Vue, FastAPI, or any specific framework — the plugins detect what you have and adapt.
-- We don't assume you're using a specific managed service (Neon, Supabase, AWS, etc.) — they read from your project config or ask once and remember.
+- We don't assume you're using a specific managed service (Supabase, AWS, self-hosted PostgreSQL, etc.) — they read from your project config or ask once and remember.
 - We don't soften feedback. The cofounder plugin in particular overrides Claude's default sycophantic behavior. If your idea has problems, you'll hear about them.
 
 ## Contributing
